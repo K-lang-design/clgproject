@@ -100,7 +100,7 @@ function AddNewInterview() {
                     </div>
                     <div className=' my-3'>
                         <label>Years of experience</label>
-                        <Input placeholder="Ex.5"  type="number"  max="100" 
+                        <Input placeholder="Ex.5"  type="number"  max="100" min="0"
                         required
                         onChange={(event)=>setJobExperience(event.target.value)}
                         />
